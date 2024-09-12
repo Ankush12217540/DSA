@@ -41,23 +41,22 @@ int main()
         cout<<arr[i]<<"  ";
      }
      cout<<endl;
-   Node* Head;  
+   Node* Head;
 
-   cout<<"The initial addresss of the Head is :  "<<Head<<endl;
-   Head=NULL;
-   cout<<"Head value after the null is"<<Head<<endl;
-//    cout<<"Head value after the pointer is : "<< (&Head)<<endl;
+   cout<<"The initial addresss of the data pointed inside  Head pointer is :  "<<Head<<endl;
+   Head=nullptr;          
+   cout<<"Head's value after the null is : "<<Head<<endl;
+   cout<<"Address of the variable pointer Head is : "<< (&Head)<<endl;
    for(int i=0; i<5; i++){
    if(Head==NULL){
     Head=new Node(arr[i]);
    }else{
     Node * temp;           // temp variable will be terminated because it is statically defined when the scope ends 
     temp=new Node(arr[i]);   // this pointer we have to delete because , this is dynamically defined; 
-    temp->next=Head; 
+    temp->next=Head;
     Head=temp;
    }
    }
-
 cout<<" ";
 
 Node * temp=Head;
