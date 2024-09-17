@@ -18,8 +18,13 @@ void deleteAtPosition(Node*& head, int position) {
         cout << "Invalid position or empty list." << endl;
         return;
     }
-
-    Node* temp = head;
+    cout<<"The addrss of the variable head is : "<<&head<<endl;
+    cout<<"The address of the value of the variable head is : "<<head<<endl;
+    Node* temp = head;   // the address of content inside head pointer is copied to the value of temp pointer
+    // to be precise, The above line of code initializes the temp pointer to point to the same location as head. This means temp now points to the same node that head points to.
+    cout<<"The address of the value of temp: "<<temp<<endl;
+    cout<<"The address of the variable temp "<<&temp<<endl;
+    
 
     // If the head needs to be removed
     if (position == 0) {
