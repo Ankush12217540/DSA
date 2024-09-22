@@ -1,12 +1,12 @@
 // we dont need to create stack using array or liked list, as 
-// we already have STL , we make our work easy;
+// we already have STL , that ake our work easy;
 
 #include<iostream>
 #include<stack>
 using namespace std;
 
 int main(){
-    stack<int> S;                 // under the hood, its implementation is done using "DEQUE"
+    stack<int> S;                 // under the hood, its implementation is done using "DEQUE"( but DEQUE is also finally the implementation of linked list and array)
     S.push(5);
     S.push(4);
     S.push(3);
@@ -27,6 +27,10 @@ int main(){
     return 0;
 }
 
- // IF 'vector' can do push_back and pop_back, then why do we needed
- // the concept of 'Stack', if the vector can do every work??
-// ANS==> 
+// If a 'vector' can perform 'push_back' and 'pop_back', why do we need
+// the concept of a 'Stack', since the vector can handle everything?
+// Answer: The creation of a vector can take extra time, as it may need
+// to allocate new memory (a new block) for even a single element insertion.
+// For example, if there are 4 elements in the vector and a 5th element needs to be inserted, 
+// the vector will create a new block of memory of size 8, which can lead to memory wastage
+// and takes extra time due to the reallocation process.
