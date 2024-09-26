@@ -24,6 +24,7 @@ public:
                     st.pop();
                 } else {
                     return false;
+                    
                 }
             } 
             // If it's an opening bracket, push it to the stack
