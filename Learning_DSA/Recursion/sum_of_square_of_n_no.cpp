@@ -7,7 +7,7 @@ int sum_square(int m, int n)
         return 1;
 
     return n * n + sum_square(2, n - 1);
-}
+}  
 
 int main()
 {
