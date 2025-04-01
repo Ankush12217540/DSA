@@ -15,7 +15,7 @@ public:
         }
 
         int Time = 0;
-        // Process the queue until the person at index k has bought all their tickets
+        // Process  of the queue until the person at index k has bought all their tickets
         while (tickets[k] != 0) {
             tickets[q.front()]--;  // Person at the front buys one ticket
             
