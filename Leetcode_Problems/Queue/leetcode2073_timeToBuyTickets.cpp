@@ -20,7 +20,7 @@ public:
             tickets[q.front()]--;  // Person at the front buys one ticket
             
             // If this person still needs more tickets, push them to the back
-            if (tickets[q.front()]) {
+            if (tickets [ q.front()]) {
                 q.push(q.front());
             }
             // Remove the person from the front of the queue
