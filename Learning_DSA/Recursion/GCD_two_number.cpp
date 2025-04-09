@@ -13,5 +13,4 @@ int main(){
     cout<<"Enter 1st number : ";cin>>n;
     cout<<"Enter 2nd number : ";cin>>m; cout<<endl;
     cout<<"GCD of two number "<<n<<" and "<< m << " is : "<< gcd(n,m);
-
 }
