@@ -17,22 +17,24 @@ void ReverseFirstK(queue<int> &q){
     while(!s.empty()){
         q.push(s.top());
         s.pop();
-    }
+    } 
     while(size--){
         q.push(q.front());
         q.pop();
     }
     
-}
+} 
 void display(queue<int> q){
     while(!q.empty()){
         cout<<q.front()<<" ";
         q.pop();
-    }
+    } 
+
     cout<<endl;
 }
 
 int main(){
+    
     queue<int>q;
     q.push(1);
     q.push(2);
