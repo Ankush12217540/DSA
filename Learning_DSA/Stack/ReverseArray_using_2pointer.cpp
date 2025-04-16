@@ -8,7 +8,7 @@ void reverseArray(int arr[], int size) {
 
     // Swap elements while start is less than end
     while (start < end) {
-        // Swap the elements at start and end
+        // Swap the elements at start    and end
         int temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
