@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 
-// Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order.
-// After each full pass, the largest unsorted element moves ("bubbles") to the end.
 // This process is repeated until the array is sorted.
 
 void bubbleSort(int arr[], int n){                // 2,4,3,6 
