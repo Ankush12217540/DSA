@@ -17,7 +17,7 @@ int main() {
     s4.clear();                  // clear contents of s4
     cout << "   Cleared s4: \"" << s4 << "\"\n";
     cout << "   First char: " << s1.front() << ", Last char: " << s1.back() << endl;
-
+    
     // 3. Accessing Characters
     cout << "3. Access with []: " << s1[1] << ", with at(): " << s1.at(1) << endl;
 
@@ -41,6 +41,8 @@ int main() {
 
     // 6. Comparison
     string cmp1 = "apple", cmp2 = "banana";
+
+
     cout << "6. Comparison: ";
     if (cmp1 == cmp2) cout << "Equal";
     else if (cmp1 < cmp2) cout << cmp1 << " < " << cmp2;
