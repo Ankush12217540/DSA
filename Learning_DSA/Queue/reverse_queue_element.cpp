@@ -21,6 +21,8 @@ void reverseQueue(queue<int>& q) {
     }
 }
 
+
+
 // Function to print the queue
 void printQueue(queue<int> q) {
     while (!q.empty()) {
