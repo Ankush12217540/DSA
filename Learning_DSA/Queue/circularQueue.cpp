@@ -13,12 +13,14 @@ public:
         size = s;
         arr = new int[size];
     }
+    
 
     ~CircularQueue() {
         delete[] arr;
     }
 
     bool isFull() {
+        
         return ((rear + 1) % size == front);
     }
 
