@@ -41,6 +41,8 @@ int main()
         cout<<arr[i]<<"  ";
      }
      cout<<endl;
+
+     
    Node* Head;
 
    cout<<"The initial addresss of the data pointed inside  Head pointer is :  "<<Head<<endl;
