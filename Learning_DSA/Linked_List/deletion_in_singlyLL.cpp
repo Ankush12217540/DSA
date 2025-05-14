@@ -31,6 +31,7 @@ void deleteAtPosition(Node*& head, int position) {
         head = temp->next; // Change head
         delete temp; // Free memory
         return;
+        
     }
 
     // Find the previous node of the node to be deleted
