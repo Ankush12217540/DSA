@@ -21,11 +21,16 @@ public:
 };
 
 int main() {
+
+
     Solution sol;
     vector<string> strs = {"flower", "flow", "flight"};
 
+    
     string result = sol.longestCommonPrefix(strs);
     cout << "Longest Common Prefix: " << result << endl;
 
     return 0;
+
 }
+
