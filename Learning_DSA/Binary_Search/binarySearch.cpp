@@ -18,6 +18,7 @@ int bSearch(int arr[], int element, int low, int high) {
             high = mid - 1; // Search the left half
     }
     
+    
     return -1; // Element not found
 }
 
